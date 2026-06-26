@@ -33,7 +33,7 @@
         }
 
         h1 {
-            font-size: 24px;
+            font-size: 22px;
             margin-bottom: 25px;
             color: #f1f2f6;
             line-height: 1.4;
@@ -50,6 +50,8 @@
             border-radius: 8px;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(88, 101, 242, 0.4);
+            margin-bottom: 30px;
+            width: 100%;
         }
 
         .btn-discord:hover {
@@ -58,8 +60,30 @@
             box-shadow: 0 6px 20px rgba(88, 101, 242, 0.6);
         }
 
-        .btn-discord:active {
-            transform: translateY(-1px);
+        .divider {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+            margin-bottom: 25px;
+        }
+
+        .youtube-section {
+            font-size: 16px;
+            color: #b9bbbe;
+        }
+
+        .youtube-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #FF0000;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.2s ease;
+        }
+
+        .youtube-link:hover {
+            color: #ff3333;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -70,6 +94,15 @@
         <a href="https://discord.gg/cpBwvUMeY" target="_blank" class="btn-discord">
             Rejoindre le Discord
         </a>
+
+        <div class="divider"></div>
+
+        <div class="youtube-section">
+            <p>Ma chaîne YouTube :</p>
+            <a href="https://www.youtube.com/@leprodubrawl" target="_blank" class="youtube-link">
+                www.youtube.com/@leprodubrawl
+            </a>
+        </div>
     </div>
 
 </body>
